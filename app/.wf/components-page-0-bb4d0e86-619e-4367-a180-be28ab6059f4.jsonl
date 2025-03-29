@@ -1,0 +1,7 @@
+{"id": "bb4d0e86-619e-4367-a180-be28ab6059f4", "type": "page", "content": {"key": "main", "pageMode": ""}, "isCodeManaged": false, "parentId": "root", "position": 0}
+{"id": "84378aea-b64c-49a3-9539-f854532279ee", "type": "header", "content": {"accentColor": "#ffffff", "emptinessColor": "#000000", "text": "LoanSpeak"}, "isCodeManaged": false, "parentId": "bb4d0e86-619e-4367-a180-be28ab6059f4", "position": 0}
+{"id": "92a2c0c8-7ab4-4865-b7eb-ed437408c8f5", "type": "columns", "content": {}, "isCodeManaged": false, "parentId": "bb4d0e86-619e-4367-a180-be28ab6059f4", "position": 1}
+{"id": "yf01mq9n6qncsil0", "type": "column", "content": {"width": "1"}, "handlers": {}, "isCodeManaged": false, "parentId": "92a2c0c8-7ab4-4865-b7eb-ed437408c8f5", "position": 0}
+{"id": "ip0a0wn1g09hnwas", "type": "textinput", "binding": {"eventType": "wf-change", "stateRef": "prompt"}, "content": {"label": "What is your question?"}, "handlers": {}, "isCodeManaged": false, "parentId": "yf01mq9n6qncsil0", "position": 0}
+{"id": "s804b3p0w6j2xueh", "type": "button", "content": {"text": "Submit"}, "handlers": {"wf-click": "submit_question"}, "isCodeManaged": false, "parentId": "bb4d0e86-619e-4367-a180-be28ab6059f4", "position": 2}
+{"id": "a8praslb4lb3xejk", "type": "text", "content": {"text": "@{response}"}, "handlers": {}, "isCodeManaged": false, "parentId": "bb4d0e86-619e-4367-a180-be28ab6059f4", "position": 3}
